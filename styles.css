@@ -1,4 +1,12 @@
+h2{
+    color: magenta
+}
+
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+#header1{
+    color: purple;
 }
