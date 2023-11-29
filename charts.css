@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.label {
+    flex: 0 0 auto;
+}
+
+.row .container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row .dish {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pasta {
+    background-color: lightgreen;
+}
+
+.pizza {
+    background-color: yellow;
+}
+
+.burito {
+    background-color: brown;
+}
